@@ -1,0 +1,79 @@
+
+* {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+
+}
+
+h1 {font-size: 4.209em !important;}
+  
+h2 {font-size: 3.157em !important; font-weight: 700 !important;}
+  
+h3 {font-size: 2.369em !important; color: #cc0a00;}
+  
+h4 {font-size: 1.777em !important; }
+  
+h5 {font-size: 1.333em !important; font-weight: 700 !important;}
+
+small {
+    font-size: 0.75em !important; color: #cc0a00;;
+}
+
+a {font-size: 1em !important; color: black !important; margin-left: 1em;}
+
+.btn-contacto{
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 2px solid #cc0a00;
+    border-radius: 5px;
+    color: #cc0a00 !important;
+}
+
+.btn-contacto:hover{
+    background-color: #cc0a00;
+    color: white !important;
+    transition: 250ms;
+}
+
+.space-16{
+    margin-bottom: 16px;
+}
+
+.space-24{
+    margin-bottom: 24px;
+}
+
+.space-32{
+    margin-bottom: 32px;
+}
+
+.space-40{
+    margin-bottom: 40px;
+}
+
+.space-80{
+    margin-bottom: 80px;
+}
+
+.space-160{
+    margin-bottom: 160px;
+}
+
+
+
+
+.sobre img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+.catalogo img{
+    width: 100%;
+    border-radius: 0.5em;
+    
+}
