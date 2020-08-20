@@ -22,7 +22,7 @@ small {
     font-size: 0.75em !important; color: #cc0a00;;
 }
 
-a {font-size: 1em !important; color: black !important; margin-left: 1em;}
+a {font-size: 1em !important; color: black !important;}
 
 .btn-contacto{
     padding-left: 1em;
@@ -76,4 +76,84 @@ a {font-size: 1em !important; color: black !important; margin-left: 1em;}
     width: 100%;
     border-radius: 0.5em;
     
+}
+
+
+
+
+
+
+hr {
+	border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.thumbnail {
+	margin-bottom:6px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+    
+.blur {
+    transform: scale(0.9);
+    opacity: 0.6;
+  	-webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.myFooter {
+	display: flex;
+  	flex-flow: row wrap;
+}
+
+footer {
+	background: #000;
+	font-family: 'Raleway', sans-serif;
+	color: rgb(0, 0, 0);
+	max-width: 100%;
+	margin-top: auto;
+}
+
+
+.footer-icons {
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 5px;
+	width: 100%;
+  	align-items: center;
+  	justify-content: space-around;
+  	position: relative;
+  	margin-top: 15px;
+}
+
+.footer-bottom {
+	text-align: center;
+	color: white;
+	width: 100%;
+  	align-items: center;
+  	justify-content: space-around;
+  	position: relative;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+}
+a {
+	text-decoration: none;
+}
+a:visited, a:focus{
+	color: white;
+}
+
+footer a:hover {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+
+.imagenes img{
+    width: 100%;
+    margin-bottom: 24px;
 }
